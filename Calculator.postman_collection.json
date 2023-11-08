@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "b8259a6c-9618-4274-9c9a-6b67288e701d",
+		"name": "Calculator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22088113",
+		"_collection_link": "https://www.postman.com/ankitb9/workspace/ankitdemo/collection/22088113-b8259a6c-9618-4274-9c9a-6b67288e701d?action=share&source=collection_link&creator=22088113"
+	},
+	"item": [
+		{
+			"name": "calculate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"num1\":45,\r\n    \"num2\":45\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/calculator/calculate?operation=adsf",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculator",
+						"calculate"
+					],
+					"query": [
+						{
+							"key": "operation",
+							"value": "adsf"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
